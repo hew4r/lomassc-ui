@@ -1,0 +1,1 @@
+export const FETCH_ACTIVITIES = 'FETCH_ACTIVITIES';

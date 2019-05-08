@@ -1,0 +1,460 @@
+{
+  "activities": [
+    {
+      "codAct": "str",
+      "descAct": "STRONG",
+      "costPerClass": 250,
+      "classesPerWeek": 5,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1000",
+              "finish": "1045",
+              "instructor": "Instructor Strong Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Martes",
+          "cronAct": [
+            {
+              "start": "1840",
+              "finish": "1930",
+              "instructor": "Instructor Strong Martes "
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1000",
+              "finish": "1045",
+              "instructor": "Instructor Strong Miercoles"
+            },
+            {
+              "start": "1930",
+              "finish": "2015",
+              "instructor": "Instructor Strong Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1930",
+              "finish": "2015",
+              "instructor": "Instructor Strong Miercoles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "zum",
+      "descAct": "ZUMBA",
+      "costPerClass": 220,
+      "classesPerWeek": 17,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1045",
+              "finish": "1130",
+              "instructor": "Instructor Zumba Lunes"
+            },
+            {
+              "start": "1315",
+              "finish": "1400",
+              "instructor": "Instructor Zumba Lunes"
+            },
+            {
+              "start": "2015",
+              "finish": "2100",
+              "instructor": "Instructor Zumba Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Martes",
+          "cronAct": [
+            {
+              "start": "1045",
+              "finish": "1130",
+              "instructor": "Instructor Zumba Martes"
+            },
+            {
+              "start": "1400",
+              "finish": "1445",
+              "instructor": "Instructor Zumba Martes"
+            },
+            {
+              "start": "1800",
+              "finish": "1845",
+              "instructor": "Instructor Zumba Martes"
+            },
+            {
+              "start": "2015",
+              "finish": "2100",
+              "instructor": "Instructor Zumba Martes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1045",
+              "finish": "1130",
+              "instructor": "Instructor Zumba Miercoles"
+            },
+            {
+              "start": "1315",
+              "finish": "1400",
+              "instructor": "Instructor Zumba Miercoles"
+            },
+            {
+              "start": "2015",
+              "finish": "2100",
+              "instructor": "Instructor Zumba Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Jueves",
+          "cronAct": [
+            {
+              "start": "1400",
+              "finish": "1445",
+              "instructor": "Instructor Zumba Jueves"
+            },
+            {
+              "start": "1800",
+              "finish": "1845",
+              "instructor": "Instructor Zumba Jueves"
+            },
+            {
+              "start": "2015",
+              "finish": "2100",
+              "instructor": "Instructor Zumba Martes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1045",
+              "finish": "1130",
+              "instructor": "Instructor Zumba Viernes"
+            },
+            {
+              "start": "1315",
+              "finish": "1400",
+              "instructor": "Instructor Zumba Viernes"
+            },
+            {
+              "start": "2015",
+              "finish": "2100",
+              "instructor": "Instructor Zumba Viernes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Sabado",
+          "cronAct": [
+            {
+              "start": "1130",
+              "finish": "1215",
+              "instructor": "Instructor Zumba Lunes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "pwr",
+      "descAct": "POWER LOCAL",
+      "costPerClass": 300,
+      "classesPerWeek": 4,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1400",
+              "finish": "145",
+              "instructor": "Instructor Power Local Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Martes",
+          "cronAct": [
+            {
+              "start": "1930",
+              "finish": "2015",
+              "instructor": "Instructor Power Local Martes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1400",
+              "finish": "145",
+              "instructor": "Instructor Power Local Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1400",
+              "finish": "145",
+              "instructor": "Instructor Power Local Viernes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "bdy",
+      "descAct": "BODY FITNESS",
+      "costPerClass": 230,
+      "classesPerWeek": 12,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1445",
+              "finish": "1530",
+              "instructor": "Instructor Body Fitness Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Martes",
+          "cronAct": [
+            {
+              "start": "1000",
+              "finish": "1045",
+              "instructor": "Instructor Body Fitness Martes"
+            },
+            {
+              "start": "1445",
+              "finish": "1530",
+              "instructor": "Instructor Body Fitness Martes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1445",
+              "finish": "1530",
+              "instructor": "Instructor Body Fitness Miercoles"
+            },
+            {
+              "start": "1845",
+              "finish": "1930",
+              "instructor": "Instructor Body Fitness Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Jueves",
+          "cronAct": [
+            {
+              "start": "1000",
+              "finish": "1045",
+              "instructor": "Instructor Body Fitness Jueves"
+            },
+            {
+              "start": "1445",
+              "finish": "1530",
+              "instructor": "Instructor Body Fitness Jueves"
+            },
+            {
+              "start": "1800",
+              "finish": "1845",
+              "instructor": "Instructor Body Fitness Jueves"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1000",
+              "finish": "1045",
+              "instructor": "Instructor Body Fitness Viernes"
+            },
+            {
+              "start": "1445",
+              "finish": "1530",
+              "instructor": "Instructor Body Fitness Viernes"
+            },
+            {
+              "start": "1845",
+              "finish": "1930",
+              "instructor": "Instructor Body Fitness Viernes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Sabado",
+          "cronAct": [
+            {
+              "start": "1215",
+              "finish": "1300",
+              "instructor": "Instructor Body Fitness Sabado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "stc",
+      "descAct": "STRETCHING",
+      "costPerClass": 240,
+      "classesPerWeek": 3,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1600",
+              "finish": "1700",
+              "instructor": "Instructor Stretching Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1600",
+              "finish": "1700",
+              "instructor": "Instructor Stretching Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1600",
+              "finish": "1700",
+              "instructor": "Instructor Stretching Viernes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "yog",
+      "descAct": "YOGA",
+      "costPerClass": 240,
+      "classesPerWeek": 3,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1700",
+              "finish": "1800",
+              "instructor": "Instructor Yoga Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1700",
+              "finish": "1800",
+              "instructor": "Instructor Yoga Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1700",
+              "finish": "1800",
+              "instructor": "Instructor Yoga Viernes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codAct": "spn",
+      "descAct": "SPINNIG",
+      "costPerClass": 250,
+      "classesPerWeek": 5,
+      "daysAct": [
+        {
+          "dayAct": "Lunes",
+          "cronAct": [
+            {
+              "start": "1845",
+              "finish": "1945",
+              "instructor": "Instructor Spinnig Lunes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Martes",
+          "cronAct": [
+            {
+              "start": "1500",
+              "finish": "1600",
+              "instructor": "Instructor Spinnig Martes"
+            }
+          ]
+        },
+        {
+          "dayAct": "Miercoles",
+          "cronAct": [
+            {
+              "start": "1845",
+              "finish": "1945",
+              "instructor": "Instructor Spinnig Miercoles"
+            }
+          ]
+        },
+        {
+          "dayAct": "Jueves",
+          "cronAct": [
+            {
+              "start": "1500",
+              "finish": "1600",
+              "instructor": "Instructor Spinnig Jueves"
+            }
+          ]
+        },
+        {
+          "dayAct": "Viernes",
+          "cronAct": [
+            {
+              "start": "1845",
+              "finish": "1945",
+              "instructor": "Instructor Spinnig Viernes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
