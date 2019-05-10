@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { withRouter, Route } from 'react-router-dom';
-import { fetchActivities } from './../actions/fetchActivities';
+import { SubmissionError } from 'redux-form';
 import PropTypes from 'prop-types';
 import AppFrame from "../components/AppFrame";
-import {getActivityByCode} from "../selectors/activities";
 import ActivityEdit from "../components/ActivityEdit";
 import ActivityData from "../components/ActivityData";
+import { fetchActivities } from './../actions/fetchActivities';
+import { updateActivity } from "../actions/updateActivity";
+import {getActivityByCode} from "../selectors/activities";
+
+
 
 class ActivityContainer extends Component {
     
@@ -18,7 +22,20 @@ class ActivityContainer extends Component {
     }
     
     handleSubmit = values => {
-        console.log(JSON.stringify(values));
+        const { id } = values;
+        //console.log(JSON.stringify(values));
+        //this.props.updateActivity(id, values);
+    
+        //Retorna una promise, para el submitting
+        return this.props.updateActivity(id, values).then( r => {
+            if (r.error) {
+                throw new SubmissionError(r.payload);
+            }
+        });
+    };
+    
+    handleOnSubmitSuccess = () => {
+        this.props.history.goBack();
     };
     
     handleOnBack = () => {
@@ -34,7 +51,11 @@ class ActivityContainer extends Component {
                 //if (this.props.activity){
                     
                     const ActivityControl = match ? ActivityEdit : ActivityData;
-                    return <ActivityControl {...this.props.activity} onSubmit={this.handleSubmit} onBack={this.handleOnBack}/>
+                    return <ActivityControl {...this.props.activity}
+                                            onSubmit={this.handleSubmit}
+                                            onSubmitSuccess={this.handleOnSubmitSuccess}
+                                            onBack={this.handleOnBack}/>
+                
                 //}
                 
                 //return null;
@@ -57,11 +78,12 @@ class ActivityContainer extends Component {
 
 ActivityContainer.propTypes = {
     codAct: PropTypes.string.isRequired,
-    activity: PropTypes.object.isRequired,
+    activity: PropTypes.object,
     fetchActivities: PropTypes.func.isRequired,
+    updateActivity: PropTypes.func.isRequired,
 };
 
-const mapDispatchToProps = { fetchActivities };
+const mapDispatchToProps = { fetchActivities, updateActivity };
 
 const mapStateToProps = (state, props) => ({
     activity: getActivityByCode(state, props)

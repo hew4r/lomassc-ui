@@ -1,9 +1,9 @@
 {
   "activities": [
     {
-      "codAct": "str",
-      "descAct": "STRONG",
-      "costPerClass": 250,
+      "id": "str",
+      "descAct": "STR",
+      "costPerClass": 249,
       "classesPerWeek": 5,
       "daysAct": [
         {
@@ -54,9 +54,9 @@
       ]
     },
     {
-      "codAct": "zum",
+      "id": "zum",
       "descAct": "ZUMBA",
-      "costPerClass": 220,
+      "costPerClass": 217,
       "classesPerWeek": 17,
       "daysAct": [
         {
@@ -177,8 +177,8 @@
       ]
     },
     {
-      "codAct": "pwr",
-      "descAct": "POWER LOCAL",
+      "id": "pwr",
+      "descAct": "POWER",
       "costPerClass": 300,
       "classesPerWeek": 4,
       "daysAct": [
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "codAct": "bdy",
+      "id": "bdy",
       "descAct": "BODY FITNESS",
       "costPerClass": 230,
       "classesPerWeek": 12,
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "codAct": "stc",
+      "id": "stc",
       "descAct": "STRETCHING",
       "costPerClass": 240,
       "classesPerWeek": 3,
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "codAct": "yog",
+      "id": "yog",
       "descAct": "YOGA",
       "costPerClass": 240,
       "classesPerWeek": 3,
@@ -399,9 +399,9 @@
       ]
     },
     {
-      "codAct": "spn",
-      "descAct": "SPINNIG",
-      "costPerClass": 250,
+      "id": "spn",
+      "descAct": "SPINNIT",
+      "costPerClass": "250",
       "classesPerWeek": 5,
       "daysAct": [
         {

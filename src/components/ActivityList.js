@@ -10,8 +10,8 @@ const ActivityList = ({ activities, urlPath }) => {
                 {
                     activities.map( act =>
                         <ActivityListItem
-                            key={act.codAct}
-                            codAct={act.codAct}
+                            key={act.id}
+                            codAct={act.id}
                             descAct={act.descAct}
                             editAction={'Edit'}
                             delAction={'Delete'}

@@ -24,7 +24,7 @@ const ActivityData = ({descAct, costPerClass, classesPerWeek, onBack}) => {
 
 ActivityData.propTypes = {
     descAct: PropTypes.string.isRequired,
-    costPerClas: PropTypes.number.isRequired,
+    costPerClass: PropTypes.number.isRequired,
     classesPerWeek: PropTypes.number.isRequired,
     onBack: PropTypes.func.isRequired,
 };

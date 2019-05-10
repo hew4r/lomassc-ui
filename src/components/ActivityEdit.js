@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { reduxForm, Field } from 'redux-form';
+import { Prompt } from 'react-router-dom';
 import {setPropsAsInitial} from "../hocs";
 import ActivityActions from "./ActivityActions";
 
@@ -41,7 +42,13 @@ const validate = values => {
     return error;
 };
 
-const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, submitting, onBack }) => {
+const toNumber = value => value && Number(value);
+const toUpper = value => value && value.toUpperCase();
+const toLower = value => value && value.toLowerCase();
+const onlyGrow = (value, previousValue, values) =>
+    value && previousValue && (value > previousValue ? value : previousValue);
+
+const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, submitting, onBack, pristine, submitSucceeded }) => {
     return (
         <div>
             <h2>Activity Edition</h2>
@@ -50,7 +57,9 @@ const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, sub
                     <Field
                         name="descAct"
                         label={"Desc. Act."}
-                        component={MyField}/>
+                        component={MyField}
+                        format={toLower}
+                        parse={toUpper}/>
                 </div>
                 <div>
                     <Field
@@ -58,7 +67,9 @@ const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, sub
                         label={"Cost p/class"}
                         component={MyField}
                         type="number"
-                        validate={isNumber}/>
+                        validate={isNumber}
+                        parse={toNumber}
+                        normalize={onlyGrow}/>
                 </div>
                 <div>
                     <Field
@@ -66,16 +77,18 @@ const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, sub
                         label={"Classes p/week"}
                         component={MyField}
                         type="number"
-                        validate={isNumber}/>
+                        validate={isNumber}
+                        parse={toNumber}
+                        normalize={onlyGrow}/>
                 </div>
                 <ActivityActions>
-                    <button type="submit" disabled={submitting}>Accept</button>
-                    <button onClick={onBack}>Cancel</button>
+                    <button type="submit" disabled={pristine || submitting}>Accept</button>
+                    <button type="button" disabled={submitting} onClick={onBack}>Cancel</button>
                 </ActivityActions>
+                <Prompt when={!pristine && !submitSucceeded} //submitSucceeded cuando se envio correctamente el formulario
+                        message="Se perderan los cambios si continua"/>
             </form>
             
-            
-            <h3>{descAct} / {costPerClass} / {classesPerWeek} </h3>
         </div>
     );
 };
