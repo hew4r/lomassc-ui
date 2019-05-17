@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ActivityActions from './ActivityActions';
 
-const ActivityData = ({descAct, costPerClass, classesPerWeek, onBack}) => {
+const ActivityData = ({ id, descAct, costPerClass, classesPerWeek, onBack, isDeleteAllow, onDelete }) => {
     
     return (
         
@@ -15,6 +15,9 @@ const ActivityData = ({descAct, costPerClass, classesPerWeek, onBack}) => {
             </div>
             <ActivityActions>
                 <button onClick={onBack}>Go Back</button>
+                
+                {isDeleteAllow && <button onClick={() => onDelete(id)}>Delete</button>}
+                
             </ActivityActions>
         </div>
         
@@ -23,10 +26,13 @@ const ActivityData = ({descAct, costPerClass, classesPerWeek, onBack}) => {
 };
 
 ActivityData.propTypes = {
+    id: PropTypes.string.isRequired,
     descAct: PropTypes.string.isRequired,
     costPerClass: PropTypes.number.isRequired,
     classesPerWeek: PropTypes.number.isRequired,
     onBack: PropTypes.func.isRequired,
+    isDeleteAllow: PropTypes.bool,
+    onDelete: PropTypes.func,
 };
 
 export default ActivityData;

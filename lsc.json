@@ -1,182 +1,6 @@
 {
   "activities": [
     {
-      "id": "str",
-      "descAct": "STR",
-      "costPerClass": 249,
-      "classesPerWeek": 5,
-      "daysAct": [
-        {
-          "dayAct": "Lunes",
-          "cronAct": [
-            {
-              "start": "1000",
-              "finish": "1045",
-              "instructor": "Instructor Strong Lunes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Martes",
-          "cronAct": [
-            {
-              "start": "1840",
-              "finish": "1930",
-              "instructor": "Instructor Strong Martes "
-            }
-          ]
-        },
-        {
-          "dayAct": "Miercoles",
-          "cronAct": [
-            {
-              "start": "1000",
-              "finish": "1045",
-              "instructor": "Instructor Strong Miercoles"
-            },
-            {
-              "start": "1930",
-              "finish": "2015",
-              "instructor": "Instructor Strong Miercoles"
-            }
-          ]
-        },
-        {
-          "dayAct": "Viernes",
-          "cronAct": [
-            {
-              "start": "1930",
-              "finish": "2015",
-              "instructor": "Instructor Strong Miercoles"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "zum",
-      "descAct": "ZUMBA",
-      "costPerClass": 217,
-      "classesPerWeek": 17,
-      "daysAct": [
-        {
-          "dayAct": "Lunes",
-          "cronAct": [
-            {
-              "start": "1045",
-              "finish": "1130",
-              "instructor": "Instructor Zumba Lunes"
-            },
-            {
-              "start": "1315",
-              "finish": "1400",
-              "instructor": "Instructor Zumba Lunes"
-            },
-            {
-              "start": "2015",
-              "finish": "2100",
-              "instructor": "Instructor Zumba Lunes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Martes",
-          "cronAct": [
-            {
-              "start": "1045",
-              "finish": "1130",
-              "instructor": "Instructor Zumba Martes"
-            },
-            {
-              "start": "1400",
-              "finish": "1445",
-              "instructor": "Instructor Zumba Martes"
-            },
-            {
-              "start": "1800",
-              "finish": "1845",
-              "instructor": "Instructor Zumba Martes"
-            },
-            {
-              "start": "2015",
-              "finish": "2100",
-              "instructor": "Instructor Zumba Martes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Miercoles",
-          "cronAct": [
-            {
-              "start": "1045",
-              "finish": "1130",
-              "instructor": "Instructor Zumba Miercoles"
-            },
-            {
-              "start": "1315",
-              "finish": "1400",
-              "instructor": "Instructor Zumba Miercoles"
-            },
-            {
-              "start": "2015",
-              "finish": "2100",
-              "instructor": "Instructor Zumba Miercoles"
-            }
-          ]
-        },
-        {
-          "dayAct": "Jueves",
-          "cronAct": [
-            {
-              "start": "1400",
-              "finish": "1445",
-              "instructor": "Instructor Zumba Jueves"
-            },
-            {
-              "start": "1800",
-              "finish": "1845",
-              "instructor": "Instructor Zumba Jueves"
-            },
-            {
-              "start": "2015",
-              "finish": "2100",
-              "instructor": "Instructor Zumba Martes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Viernes",
-          "cronAct": [
-            {
-              "start": "1045",
-              "finish": "1130",
-              "instructor": "Instructor Zumba Viernes"
-            },
-            {
-              "start": "1315",
-              "finish": "1400",
-              "instructor": "Instructor Zumba Viernes"
-            },
-            {
-              "start": "2015",
-              "finish": "2100",
-              "instructor": "Instructor Zumba Viernes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Sabado",
-          "cronAct": [
-            {
-              "start": "1130",
-              "finish": "1215",
-              "instructor": "Instructor Zumba Lunes"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "pwr",
       "descAct": "POWER",
       "costPerClass": 300,
@@ -323,46 +147,8 @@
       ]
     },
     {
-      "id": "stc",
-      "descAct": "STRETCHING",
-      "costPerClass": 240,
-      "classesPerWeek": 3,
-      "daysAct": [
-        {
-          "dayAct": "Lunes",
-          "cronAct": [
-            {
-              "start": "1600",
-              "finish": "1700",
-              "instructor": "Instructor Stretching Lunes"
-            }
-          ]
-        },
-        {
-          "dayAct": "Miercoles",
-          "cronAct": [
-            {
-              "start": "1600",
-              "finish": "1700",
-              "instructor": "Instructor Stretching Miercoles"
-            }
-          ]
-        },
-        {
-          "dayAct": "Viernes",
-          "cronAct": [
-            {
-              "start": "1600",
-              "finish": "1700",
-              "instructor": "Instructor Stretching Viernes"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "yog",
-      "descAct": "YOGA",
+      "descAct": "YOGJ",
       "costPerClass": 240,
       "classesPerWeek": 3,
       "daysAct": [
@@ -400,7 +186,7 @@
     },
     {
       "id": "spn",
-      "descAct": "SPINNIT",
+      "descAct": "SPINNIG",
       "costPerClass": "250",
       "classesPerWeek": 5,
       "daysAct": [

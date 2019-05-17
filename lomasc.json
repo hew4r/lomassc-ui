@@ -1,0 +1,754 @@
+{
+  "areas": [
+    {
+      "id": "gym",
+      "desc": "GIMNASIO",
+      "admin": "Miguel",
+      "phone": "42024524",
+      "email": "fitin.lsc@gmail.com",
+      "activities": [
+        {
+          "id": "pwr",
+          "desc": "POWER",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "1400",
+                  "finish": "1450",
+                  "instructor": "Instructor Power Local Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "1930",
+                  "finish": "2015",
+                  "instructor": "Instructor Power Local Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "1400",
+                  "finish": "1450",
+                  "instructor": "Instructor Power Local Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "1400",
+                  "finish": "1450",
+                  "instructor": "Instructor Power Local Viernes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bdy",
+          "desc": "BODY FITNESS",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "1445",
+                  "finish": "1530",
+                  "instructor": "Instructor Body Fitness Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "1000",
+                  "finish": "1045",
+                  "instructor": "Instructor Body Fitness Martes"
+                },
+                {
+                  "start": "1445",
+                  "finish": "1530",
+                  "instructor": "Instructor Body Fitness Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "1445",
+                  "finish": "1530",
+                  "instructor": "Instructor Body Fitness Miercoles"
+                },
+                {
+                  "start": "1845",
+                  "finish": "1930",
+                  "instructor": "Instructor Body Fitness Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Jueves",
+              "timestables": [
+                {
+                  "start": "1000",
+                  "finish": "1045",
+                  "instructor": "Instructor Body Fitness Jueves"
+                },
+                {
+                  "start": "1445",
+                  "finish": "1530",
+                  "instructor": "Instructor Body Fitness Jueves"
+                },
+                {
+                  "start": "1800",
+                  "finish": "1845",
+                  "instructor": "Instructor Body Fitness Jueves"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "1000",
+                  "finish": "1045",
+                  "instructor": "Instructor Body Fitness Viernes"
+                },
+                {
+                  "start": "1445",
+                  "finish": "1530",
+                  "instructor": "Instructor Body Fitness Viernes"
+                },
+                {
+                  "start": "1845",
+                  "finish": "1930",
+                  "instructor": "Instructor Body Fitness Viernes"
+                }
+              ]
+            },
+            {
+              "day": "Sabado",
+              "timestables": [
+                {
+                  "start": "1215",
+                  "finish": "1300",
+                  "instructor": "Instructor Body Fitness Sabado"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yog",
+          "desc": "YOGA",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Yoga Lunes"
+                }
+              ]
+            },
+            {
+              "dayAct": "Miercoles",
+              "timestables": [
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Yoga Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Yoga Viernes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spn",
+          "desc": "SPINNIG",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "1845",
+                  "finish": "1945",
+                  "instructor": "Instructor Spinnig Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Spinnig Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "1845",
+                  "finish": "1945",
+                  "instructor": "Instructor Spinnig Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Jueves",
+              "timestables": [
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Spinnig Jueves"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "1845",
+                  "finish": "1945",
+                  "instructor": "Instructor Spinnig Viernes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pil",
+      "desc": "PILETA",
+      "admin": "Norberto",
+      "phone": "42023554",
+      "email": "nobnatacion.lsc@gmail.com",
+      "activities": [
+        {
+          "id": "nat_prof_adulto",
+          "desc": "NATACION CON PROFESOR PARA ADULTOS (14 Años en Adelante)",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "0800",
+                  "finish": "0900",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "1000",
+                  "finish": "1100",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "1930",
+                  "finish": "2030",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                },
+                {
+                  "start": "2030",
+                  "finish": "2130",
+                  "instructor": "Instructor Natacion p/ Adultos Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "0800",
+                  "finish": "0900",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                },
+                {
+                  "start": "1000",
+                  "finish": "1100",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                },
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                },
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                },
+                {
+                  "start": "2000",
+                  "finish": "2100",
+                  "instructor": "Instructor Natacion p/ Adultos Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "0800",
+                  "finish": "0900",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                },
+                {
+                  "start": "1000",
+                  "finish": "1100",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                },
+                {
+                  "start": "1930",
+                  "finish": "2030",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                },
+                {
+                  "start": "2030",
+                  "finish": "2130",
+                  "instructor": "Instructor Natacion p/ Adultos Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Jueves",
+              "timestables": [
+                {
+                  "start": "0800",
+                  "finish": "0900",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                },
+                {
+                  "start": "1000",
+                  "finish": "1100",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                },
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                },
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                },
+                {
+                  "start": "2000",
+                  "finish": "2100",
+                  "instructor": "Instructor Natacion p/ Adultos Jueves"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "0800",
+                  "finish": "0900",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                },
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                },
+                {
+                  "start": "1930",
+                  "finish": "2030",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                },
+                {
+                  "start": "2030",
+                  "finish": "2130",
+                  "instructor": "Instructor Natacion p/ Adultos Viernes"
+                }
+              ]
+            },
+            {
+              "day": "Sabado",
+              "timestables": [
+                {
+                  "start": "0900",
+                  "finish": "1000",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                },
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                },
+                {
+                  "start": "1200",
+                  "finish": "1300",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                },
+                {
+                  "start": "1400",
+                  "finish": "1500",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                },
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Natacion p/ Adultos Sabado"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nat_prof_primaria",
+          "desc": "NATACION CON PROFESOR PARA PRIMARIA (de 6 a 13 años)",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "0930",
+                  "finish": "1030",
+                  "instructor": "Instructor Natacion p/ Primaria Lunes"
+                },
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion p/ Primaria Lunes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Primaria Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Natacion p/ Primaria Martes"
+                },
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion p/ Primaria Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "0930",
+                  "finish": "1030",
+                  "instructor": "Instructor Natacion p/ Primaria Miercoles"
+                },
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion p/ Primaria Miercoles"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Primaria Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Jueves",
+              "timestables": [
+                {
+                  "start": "1700",
+                  "finish": "1800",
+                  "instructor": "Instructor Natacion p/ Primaria Jueves"
+                },
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion p/ Primaria Jueves"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "0930",
+                  "finish": "1030",
+                  "instructor": "Instructor Natacion p/ Primaria Viernes"
+                },
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion p/ Primaria Viernes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion p/ Primaria Viernes"
+                }
+              ]
+            },
+            {
+              "day": "Sabado",
+              "timestables": [
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion p/ Primaria Sabado"
+                },
+                {
+                  "start": "1400",
+                  "finish": "1500",
+                  "instructor": "Instructor Natacion p/ Primaria Sabado"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion p/ Primaria Sabado"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nat_prof_pre_escolar",
+          "desc": "NATACION CON PROFESOR PRE ESCOLAR (de 3 a 5 años)",
+          "costs": [
+            {
+              "info": "1 clase por semana",
+              "cost": 150
+            },
+            {
+              "info": "2 clases por semana",
+              "cost": 300
+            }
+          ],
+          "plan": [
+            {
+              "day": "Lunes",
+              "timestables": [
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion Pre Escolar Lunes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion Pre Escolar Lunes"
+                }
+              ]
+            },
+            {
+              "day": "Martes",
+              "timestables": [
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion Pre Escolar Martes"
+                }
+              ]
+            },
+            {
+              "day": "Miercoles",
+              "timestables": [
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion Pre Escolar Miercoles"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion Pre Escolar Miercoles"
+                }
+              ]
+            },
+            {
+              "day": "Jueves",
+              "timestables": [
+                {
+                  "start": "1800",
+                  "finish": "1900",
+                  "instructor": "Instructor Natacion Pre Escolar Jueves"
+                }
+              ]
+            },
+            {
+              "day": "Viernes",
+              "timestables": [
+                {
+                  "start": "1730",
+                  "finish": "1830",
+                  "instructor": "Instructor Natacion Pre Escolar Viernes"
+                },
+                {
+                  "start": "1830",
+                  "finish": "1930",
+                  "instructor": "Instructor Natacion Pre Escolar Viernes"
+                }
+              ]
+            },
+            {
+              "day": "Sabado",
+              "timestables": [
+                {
+                  "start": "1100",
+                  "finish": "1200",
+                  "instructor": "Instructor Natacion Pre Escolar Sabado"
+                },
+                {
+                  "start": "1400",
+                  "finish": "1500",
+                  "instructor": "Instructor Natacion Pre Escolar Sabado"
+                },
+                {
+                  "start": "1500",
+                  "finish": "1600",
+                  "instructor": "Instructor Natacion Pre Escolar Sabado"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

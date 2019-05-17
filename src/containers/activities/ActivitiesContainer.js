@@ -2,17 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import AppFrame from "../components/AppFrame";
-import ActivityList from "../components/ActivityList";
-import ActivityActions from "../components/ActivityActions";
+import AppFrame from "../../components/layout/AppFrame";
+import ActivityList from "../../components/activities/ActivityList";
+import ActivityActions from "../../components/activities/ActivityActions";
 import { Button } from "@material-ui/core";
-import { fetchActivities } from "../actions/fetchActivities";
-import {getActivities} from "../selectors/activities";
+import { fetchActivities } from "../../actions/activities/fetchActivities";
+import {getActivities} from "../../selectors/activities";
 
 class ActivitiesContainer extends Component {
 
     componentDidMount() {
-        this.props.fetchActivities();
+        if (this.props.activities.length === 0) {
+            this.props.fetchActivities();
+        }
     }
     
     handleAddNew = () => {

@@ -1,3 +1,5 @@
 const urlBase = 'http://localhost:3001/';
 
-export const urlActivities =  `${urlBase}activities`;
+export const urlAreas = `${urlBase}areas`;
+
+export const urlActivities = `${urlBase}activities`;

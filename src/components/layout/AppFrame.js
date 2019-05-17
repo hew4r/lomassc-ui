@@ -1,17 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AppHeader from "./AppHeader";
+import {CssBaseline} from "@material-ui/core";
 
 const AppFrame = ({header, body}) => {
 
     return (
-        <div>
+        <React.Fragment>
+            <CssBaseline />
             <div className="app-frame">
                 <AppHeader title={header}/>
                 <div>{body}</div>
-                <div>LSCLUB</div>
             </div>
-        </div>
+        </React.Fragment>
     );
 };
 

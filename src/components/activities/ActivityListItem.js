@@ -13,7 +13,7 @@ const ActivityListItem = ({ codAct, descAct, editAction, delAction, urlPath }) =
                     <Link to={`${urlPath}${codAct}/edit`}>{editAction}</Link>
                 </div>
                 <div className="field">
-                    <Link to={`${urlPath}${codAct}`}>{delAction}</Link>
+                    <Link to={`${urlPath}${codAct}/del`}>{delAction}</Link>
                 </div>
             </div>
         </div>

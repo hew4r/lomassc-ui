@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { reduxForm, Field } from 'redux-form';
 import { Prompt } from 'react-router-dom';
-import {setPropsAsInitial} from "../hocs";
+import {setPropsAsInitial} from "../../hocs/index";
 import ActivityActions from "./ActivityActions";
 
 const isNumber = value => (
@@ -46,7 +46,7 @@ const toNumber = value => value && Number(value);
 const toUpper = value => value && value.toUpperCase();
 const toLower = value => value && value.toLowerCase();
 const onlyGrow = (value, previousValue, values) =>
-    value && previousValue && (value > previousValue ? value : previousValue);
+    value && (!previousValue ? value : (value > previousValue ? value : previousValue));
 
 const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, submitting, onBack, pristine, submitSucceeded }) => {
     return (
