@@ -1,0 +1,39 @@
+{
+  "activities": [
+    {
+      "id": "pwrlocal",
+      "id_area": "gym",
+      "desc": "POWER"
+    },
+    {
+      "id": "bodyfit",
+      "id_area": "gym",
+      "desc": "BODY FITNESS"
+    },
+    {
+      "id": "yoga",
+      "id_area": "gym",
+      "desc": "YOGA"
+    },
+    {
+      "id": "spinning",
+      "id_area": "gym",
+      "desc": "SPINNIG"
+    },
+    {
+      "id": "nat_prof_adulto",
+      "id_area": "pil",
+      "desc": "NATACION CON PROFESOR PARA ADULTOS (14 Años en Adelante)"
+    },
+    {
+      "id": "nat_prof_primaria",
+      "id_area": "pil",
+      "desc": "NATACION CON PROFESOR PARA PRIMARIA (de 6 a 13 años)"
+    },
+    {
+      "id": "nat_prof_preescolar",
+      "id_area": "pil",
+      "desc": "NATACION CON PROFESOR PRE ESCOLAR (de 3 a 5 años)"
+    }
+  ]
+}

@@ -13,9 +13,15 @@ const AreaListItem = ({ id, desc, editAction, deleteAction, urlPath  }) => {
                 <TableCell >
                     <Link to={`${urlPath}${id}`}>{desc}</Link>
                 </TableCell>
+    
+                <TableCell >
+                    <Link to={`${urlPath}${id}/activities`}>{"Activities"}</Link>
+                </TableCell>
+                
                 <TableCell >
                     <Link to={`${urlPath}${id}/edit`}>{editAction}</Link>
                 </TableCell>
+                
                 <TableCell >
                     <Link to={`${urlPath}${id}/del`}>{deleteAction}</Link>
                 </TableCell>

@@ -7,58 +7,39 @@ import HomeContainer from "./containers/HomeContainer";
 import ActivitiesContainer from "./containers/activities/ActivitiesContainer";
 import ActivityContainer from "./containers/activities/ActivityContainer";
 import ActivityNewContainer from "./containers/activities/ActivityNewContainer";
-import {AppBar, CssBaseline, Grid, Paper, Toolbar, Typography} from "@material-ui/core";
+import {AppBar, CssBaseline, Grid, Paper, Toolbar, Typography, Drawer, Divider, List, ListItem, ListItemIcon, ListItemText} from "@material-ui/core";
+import DashboardIcon from '@material-ui/icons/Dashboard';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import PeopleIcon from '@material-ui/icons/People';
+import BarChartIcon from '@material-ui/icons/BarChart';
+
 import AreasContainer from "./containers/areas/AreasContainer";
+import AppLayout from "./components/layout/AppLayout";
+
 
 class App extends Component {
     
     
-    
-    
-    render() {
-    
-        
-       
-        
-        return (
-            <Router>
-                
-                <React.Fragment>
-                    <CssBaseline />
-    
-                    <AppBar position="static" className="layout-appbar">
-                        <Toolbar>
-                            <Typography variant="h6" color="inherit" noWrap>
-                                LSC
-                            </Typography>
-                        </Toolbar>
-                    </AppBar>
-    
-                    <main>
-                        <div className="layout-main">
-    
-                            <Route exact path="/areas" component={AreasContainer} />
-                            <Route exact path="/activities" component={ActivitiesContainer}/>
-                            <Switch>
-                                <Route path="/activities/new" component={ActivityNewContainer}/>
-                                <Route path="/activities/:codAct" render={props => <ActivityContainer codAct={props.match.params.codAct} />} />
-                            </Switch>
-             
-                        </div>
-                    
-                    </main>
-    
-                    <footer className="layout-footer">
-                      
-                        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                            Something here to give the footer a purpose!
-                        </Typography>
-                    </footer>
-                   
+    renderRouter = () => (
+        <Router>
+            <Route exact path="/" component={HomeContainer} />
+            <Route exact path="/areas" component={AreasContainer} />
+            <Route exact path="/activities" component={ActivitiesContainer}/>
+            <Switch>
+                <Route path="/activities/new" component={ActivityNewContainer}/>
+                <Route path="/activities/:codAct" render={props => <ActivityContainer codAct={props.match.params.codAct} />} />
+            </Switch>
+        </Router>
+    )
 
-                </React.Fragment>
-         
-            </Router>
+
+    render() {
+        return (
+        
+            <AppLayout
+                routes={this.renderRouter()}
+            />
+        
         );
   }
 }

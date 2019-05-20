@@ -6,13 +6,12 @@ import {CssBaseline} from "@material-ui/core";
 const AppFrame = ({header, body}) => {
 
     return (
-        <React.Fragment>
-            <CssBaseline />
-            <div className="app-frame">
-                <AppHeader title={header}/>
-                <div>{body}</div>
-            </div>
-        </React.Fragment>
+       
+        <div className="app-frame">
+            <AppHeader title={header}/>
+            <div>{body}</div>
+        </div>
+       
     );
 };
 

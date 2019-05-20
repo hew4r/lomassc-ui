@@ -47,8 +47,6 @@ class AreasContainer extends Component {
             </div>
         );
     }
-    
-    
 }
 
 AreasContainer.propTypes = {

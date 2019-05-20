@@ -8,7 +8,7 @@ const AreaList = ({ areas, urlPath }) => {
     return (
         <div>
     
-            <Paper className=".area-list-root">
+            <Paper className="area-list-root">
             
                 <Table className="list">
                     

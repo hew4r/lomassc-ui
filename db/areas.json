@@ -1,0 +1,18 @@
+{
+  "areas": [
+    {
+      "id": "gym",
+      "desc": "GIMNASIO",
+      "admin": "Miguel",
+      "phone": "42024524",
+      "email": "fitin.lsc@gmail.com"
+    },
+    {
+      "id": "pil",
+      "desc": "PILETA",
+      "admin": "Norberto",
+      "phone": "42023554",
+      "email": "nobnatacion.lsc@gmail.com"
+    }
+  ]
+}

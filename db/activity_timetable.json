@@ -1,0 +1,723 @@
+{
+  "activity timetable": [
+    {
+      "id": 1,
+      "id_act": "pwrlocal",
+      "day": "Lunes",
+      "start": "1400",
+      "finish": "1450",
+      "instructor": "Instructor Power Local Lunes"
+    },
+    {
+      "id": 2,
+      "day": "Martes",
+      "start": "1930",
+      "finish": "2015",
+      "instructor": "Instructor Power Local Martes"
+    },
+    {
+      "id": 3,
+      "id_act": "pwrlocal",
+      "day": "Miercoles",
+      "start": "1400",
+      "finish": "1450",
+      "instructor": "Instructor Power Local Miercoles"
+    },
+    {
+      "id": 4,
+      "id_act": "pwrlocal",
+      "day": "Viernes",
+      "start": "1400",
+      "finish": "1450",
+      "instructor": "Instructor Power Local Viernes"
+    },
+    {
+      "id": 5,
+      "id_act": "bodyfit",
+      "day": "Lunes",
+      "start": "1445",
+      "finish": "1530",
+      "instructor": "Instructor Body Fitness Lunes"
+    },
+    {
+      "id": 6,
+      "id_act": "bodyfit",
+      "day": "Martes",
+      "start": "1445",
+      "finish": "1530",
+      "instructor": "Instructor Body Fitness Martes"
+    },
+    {
+      "id": 7,
+      "id_act": "bodyfit",
+      "day": "Miercoles",
+      "start": "1445",
+      "finish": "1530",
+      "instructor": "Instructor Body Fitness Miercoles"
+    },
+    {
+      "id": 8,
+      "id_act": "bodyfit",
+      "day": "Miercoles",
+      "start": "1845",
+      "finish": "1930",
+      "instructor": "Instructor Body Fitness Miercoles"
+    },
+    {
+      "id": 9,
+      "id_act": "bodyfit",
+      "day": "Jueves",
+      "start": "1445",
+      "finish": "1530",
+      "instructor": "Instructor Body Fitness Jueves"
+    },
+    {
+      "id": 10,
+      "id_act": "bodyfit",
+      "day": "Jueves",
+      "start": "1800",
+      "finish": "1845",
+      "instructor": "Instructor Body Fitness Jueves"
+    },
+    {
+      "id": 11,
+      "id_act": "bodyfit",
+      "day": "Viernes",
+      "start": "1000",
+      "finish": "1045",
+      "instructor": "Instructor Body Fitness Viernes"
+    },
+    {
+      "id": 12,
+      "id_act": "bodyfit",
+      "day": "Viernes",
+      "start": "1445",
+      "finish": "1530",
+      "instructor": "Instructor Body Fitness Viernes"
+    },
+    {
+      "id": 13,
+      "id_act": "bodyfit",
+      "day": "Viernes",
+      "start": "1845",
+      "finish": "1930",
+      "instructor": "Instructor Body Fitness Viernes"
+    },
+    {
+      "id": 14,
+      "id_act": "bodyfit",
+      "day": "Sabado",
+      "start": "1215",
+      "finish": "1300",
+      "instructor": "Instructor Body Fitness Sabado"
+    },
+    {
+      "id": 15,
+      "id_act": "yog",
+      "day": "Lunes",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Yoga Lunes"
+    },
+    {
+      "id": 16,
+      "id_act": "yog",
+      "day": "Miercoles",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Yoga Miercoles"
+    },
+    {
+      "id": 17,
+      "id_act": "yog",
+      "day": "Viernes",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Yoga Viernes"
+    },
+    {
+      "id": 18,
+      "id_act": "spinnig",
+      "day": "Lunes",
+      "start": "1845",
+      "finish": "1945",
+      "instructor": "Instructor Spinnig Lunes"
+    },
+    {
+      "id": 19,
+      "id_act": "spinnig",
+      "day": "Martes",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Spinnig Martes"
+    },
+    {
+      "id": 20,
+      "id_act": "spinnig",
+      "day": "Martes",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Spinnig Martes"
+    },
+    {
+      "id": 21,
+      "id_act": "spinnig",
+      "day": "Miercoles",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Spinnig Miercoles"
+    },
+    {
+      "id": 22,
+      "id_act": "spinnig",
+      "day": "Miercoles",
+      "start": "1845",
+      "finish": "1945",
+      "instructor": "Instructor Spinnig Miercoles"
+    },
+    {
+      "id": 23,
+      "id_act": "spinnig",
+      "day": "Jueves",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Spinnig Jueves"
+    },
+    {
+      "id": 24,
+      "id_act": "spinnig",
+      "day": "Jueves",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Spinnig Jueves"
+    },
+    {
+      "id": 25,
+      "id_act": "spinnig",
+      "day": "Viernes",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Spinnig Viernes"
+    },
+    {
+      "id": 26,
+      "id_act": "spinnig",
+      "day": "Viernes",
+      "start": "1845",
+      "finish": "1945",
+      "instructor": "Instructor Spinnig Viernes"
+    },
+    {
+      "id": 27,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 28,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "1000",
+      "finish": "1100",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 29,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 30,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 31,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 32,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "1930",
+      "finish": "2030",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 33,
+      "id_act": "nat_prof_adulto",
+      "day": "Lunes",
+      "start": "2030",
+      "finish": "2130",
+      "instructor": "Instructor Natacion p/ Adultos Lunes"
+    },
+    {
+      "id": 34,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 35,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "1000",
+      "finish": "1100",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 36,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 37,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 38,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 39,
+      "id_act": "nat_prof_adulto",
+      "day": "Martes",
+      "start": "2000",
+      "finish": "2100",
+      "instructor": "Instructor Natacion p/ Adultos Martes"
+    },
+    {
+      "id": 40,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 41,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "1000",
+      "finish": "1100",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 42,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 43,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 44,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "1930",
+      "finish": "2030",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 45,
+      "id_act": "nat_prof_adulto",
+      "day": "Miercoles",
+      "start": "2030",
+      "finish": "2130",
+      "instructor": "Instructor Natacion p/ Adultos Miercoles"
+    },
+    {
+      "id": 46,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 47,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "1000",
+      "finish": "1100",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 48,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 49,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 50,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 51,
+      "id_act": "nat_prof_adulto",
+      "day": "Jueves",
+      "start": "2000",
+      "finish": "2100",
+      "instructor": "Instructor Natacion p/ Adultos Jueves"
+    },
+    {
+      "id": 52,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "0800",
+      "finish": "0900",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 53,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 54,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 55,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 56,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "1930",
+      "finish": "2030",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 57,
+      "id_act": "nat_prof_adulto",
+      "day": "Viernes",
+      "start": "2030",
+      "finish": "2130",
+      "instructor": "Instructor Natacion p/ Adultos Viernes"
+    },
+    {
+      "id": 58,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "0900",
+      "finish": "1000",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 59,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 60,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "1200",
+      "finish": "1300",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 61,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "1400",
+      "finish": "1500",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 62,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 63,
+      "id_act": "nat_prof_adulto",
+      "day": "Sabado",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Natacion p/ Adultos Sabado"
+    },
+    {
+      "id": 64,
+      "id_act": "nat_prof_primaria",
+      "day": "Lunes",
+      "start": "0930",
+      "finish": "1030",
+      "instructor": "Instructor Natacion p/ Primaria Lunes"
+    },
+    {
+      "id": 65,
+      "id_act": "nat_prof_primaria",
+      "day": "Lunes",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion p/ Primaria Lunes"
+    },
+    {
+      "id": 66,
+      "id_act": "nat_prof_primaria",
+      "day": "Lunes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Primaria Lunes"
+    },
+    {
+      "id": 67,
+      "id_act": "nat_prof_primaria",
+      "day": "Martes",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Natacion p/ Primaria Martes"
+    },
+    {
+      "id": 68,
+      "id_act": "nat_prof_primaria",
+      "day": "Martes",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion p/ Primaria Martes"
+    },
+    {
+      "id": 69,
+      "id_act": "nat_prof_primaria",
+      "day": "Miercoles",
+      "start": "0930",
+      "finish": "1030",
+      "instructor": "Instructor Natacion p/ Primaria Miercoles"
+    },
+    {
+      "id": 70,
+      "id_act": "nat_prof_primaria",
+      "day": "Miercoles",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion p/ Primaria Miercoles"
+    },
+    {
+      "id": 71,
+      "id_act": "nat_prof_primaria",
+      "day": "Miercoles",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Primaria Miercoles"
+    },
+    {
+      "id": 72,
+      "id_act": "nat_prof_primaria",
+      "day": "Jueves",
+      "start": "1700",
+      "finish": "1800",
+      "instructor": "Instructor Natacion p/ Primaria Jueves"
+    },
+    {
+      "id": 73,
+      "id_act": "nat_prof_primaria",
+      "day": "Jueves",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion p/ Primaria Jueves"
+    },
+    {
+      "id": 74,
+      "id_act": "nat_prof_primaria",
+      "day": "Viernes",
+      "start": "0930",
+      "finish": "1030",
+      "instructor": "Instructor Natacion p/ Primaria Viernes"
+    },
+    {
+      "id": 75,
+      "id_act": "nat_prof_primaria",
+      "day": "Viernes",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion p/ Primaria Viernes"
+    },
+    {
+      "id": 76,
+      "id_act": "nat_prof_primaria",
+      "day": "Viernes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion p/ Primaria Viernes"
+    },
+    {
+      "id": 77,
+      "id_act": "nat_prof_primaria",
+      "day": "Sabado",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion p/ Primaria Sabado"
+    },
+    {
+      "id": 78,
+      "id_act": "nat_prof_primaria",
+      "day": "Sabado",
+      "start": "1400",
+      "finish": "1500",
+      "instructor": "Instructor Natacion p/ Primaria Sabado"
+    },
+    {
+      "id": 79,
+      "id_act": "nat_prof_primaria",
+      "day": "Sabado",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion p/ Primaria Sabado"
+    },
+    {
+      "id": 80,
+      "id_act": "nat_prof_preescolar",
+      "day": "Lunes",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion Pre Escolar Lunes"
+    },
+    {
+      "id": 81,
+      "id_act": "nat_prof_preescolar",
+      "day": "Lunes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion Pre Escolar Lunes"
+    },
+    {
+      "id": 82,
+      "id_act": "nat_prof_preescolar",
+      "day": "Martes",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion Pre Escolar Martes"
+    },
+    {
+      "id": 83,
+      "id_act": "nat_prof_preescolar",
+      "day": "Miercoles",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion Pre Escolar Miercoles"
+    },
+    {
+      "id": 84,
+      "id_act": "nat_prof_preescolar",
+      "day": "Miercoles",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion Pre Escolar Miercoles"
+    },
+    {
+      "id": 85,
+      "id_act": "nat_prof_preescolar",
+      "day": "Jueves",
+      "start": "1800",
+      "finish": "1900",
+      "instructor": "Instructor Natacion Pre Escolar Jueves"
+    },
+    {
+      "id": 86,
+      "id_act": "nat_prof_preescolar",
+      "day": "Viernes",
+      "start": "1730",
+      "finish": "1830",
+      "instructor": "Instructor Natacion Pre Escolar Viernes"
+    },
+    {
+      "id": 87,
+      "id_act": "nat_prof_preescolar",
+      "day": "Viernes",
+      "start": "1830",
+      "finish": "1930",
+      "instructor": "Instructor Natacion Pre Escolar Viernes"
+    },
+    {
+      "id": 88,
+      "id_act": "nat_prof_preescolar",
+      "day": "Sabado",
+      "start": "1100",
+      "finish": "1200",
+      "instructor": "Instructor Natacion Pre Escolar Sabado"
+    },
+    {
+      "id": 89,
+      "id_act": "nat_prof_preescolar",
+      "day": "Sabado",
+      "start": "1400",
+      "finish": "1500",
+      "instructor": "Instructor Natacion Pre Escolar Sabado"
+    },
+    {
+      "id": 90,
+      "id_act": "nat_prof_preescolar",
+      "day": "Sabado",
+      "start": "1500",
+      "finish": "1600",
+      "instructor": "Instructor Natacion Pre Escolar Sabado"
+    }
+  ]
+}
