@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { Button } from '@material-ui/core';
+import Fab from "@material-ui/core/Fab/Fab";
+import AddIcon from '@material-ui/icons/Add';
 import { fetchAreas } from "../../actions/areas/fetchAreas";
 import {getAreas} from "../../selectors/areas";
 import AppFrame from "../../components/layout/AppFrame";
@@ -16,7 +17,7 @@ class AreasContainer extends Component {
     }
     
     handleAddNew = () => {
-    
+        this.props.history.push("/areas/new");
     }
     
     renderBody = areas => (
@@ -26,9 +27,11 @@ class AreasContainer extends Component {
                 areas={areas}
                 urlPath={"areas/"}
             />
-            
+       
             <AreasActions>
-                <Button variant={"contained"} onClick={this.handleAddNew}>New Area</Button>
+                <Fab color="primary" aria-label="Add" >
+                    <AddIcon onClick={this.handleAddNew}/>
+                </Fab>
             </AreasActions>
   
         </div>
@@ -36,8 +39,6 @@ class AreasContainer extends Component {
     );
     
     render() {
-        console.log(this.props.areas);
-        
         return (
             <div>
                 

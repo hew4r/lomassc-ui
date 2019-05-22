@@ -6,13 +6,17 @@ import { Paper, Table, TableHead, TableRow, TableCell, TableBody } from '@materi
 const AreaList = ({ areas, urlPath }) => {
 
     return (
-        <div>
-    
-            <Paper className="area-list-root">
-            
-                <Table className="list">
-                    
-                 
+     
+            <Paper className="areas-paper">
+                <Table className="areas-table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Area</TableCell>
+                            <TableCell>Activities</TableCell>
+                            <TableCell>Edit</TableCell>
+                            <TableCell>Delete</TableCell>
+                        </TableRow>
+                    </TableHead>
                     <TableBody>
                         {
                             areas.map(area =>
@@ -30,15 +34,7 @@ const AreaList = ({ areas, urlPath }) => {
                     </TableBody>
                 
                 </Table>
-            
             </Paper>
-            
-            
-
-           
-        
-        </div>
-        
     )
 }
 

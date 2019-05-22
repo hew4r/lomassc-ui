@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom'
-import { CssBaseline, Button, Drawer, Menu, MenuItem, Divider, AppBar, Toolbar, List, ListItem, ListItemText, ListItemIcon, Typography, IconButton, Grid, Paper    } from '@material-ui/core';
+import { AppBar, Toolbar } from '@material-ui/core';
 
-
-const AppLayout = ({ routes }) => {
+const AppLayout = ({ children }) => {
     
  
     return (
@@ -12,13 +10,12 @@ const AppLayout = ({ routes }) => {
         <div className="app-layout">
             <AppBar position="static">
                 <Toolbar>
-                    <NavLink to="/areas" ><Button color="inherit">Areas</Button></NavLink>
                 </Toolbar>
             </AppBar>
             
             <main className="content">
                 <div>
-                    {routes}
+                    {children}
                 </div>
             </main>
         </div>
@@ -27,7 +24,7 @@ const AppLayout = ({ routes }) => {
 };
 
 AppLayout.propTypes = {
-    routes: PropTypes.element.isRequired,
+    children: PropTypes.element.isRequired,
 };
 
 export default AppLayout;

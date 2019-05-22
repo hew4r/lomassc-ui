@@ -4,12 +4,12 @@ import { reduxForm, Field } from 'redux-form';
 import { Prompt } from 'react-router-dom';
 import {setPropsAsInitial} from "../../hocs/index";
 import ActivityActions from "./ActivityActions";
-
+/*
 const isNumber = value => (
     isNaN(Number(value)) && "Este campo no es numerico"
 );
 
-/*
+
 const isRequired = value => (
     !value && "Este campo es requerido"
 );*/
@@ -42,12 +42,13 @@ const validate = values => {
     return error;
 };
 
-const toNumber = value => value && Number(value);
+//const toNumber = value => value && Number(value);
 const toUpper = value => value && value.toUpperCase();
 const toLower = value => value && value.toLowerCase();
+/*
 const onlyGrow = (value, previousValue, values) =>
     value && (!previousValue ? value : (value > previousValue ? value : previousValue));
-
+*/
 const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, submitting, onBack, pristine, submitSucceeded }) => {
     return (
         <div>
@@ -61,26 +62,7 @@ const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, sub
                         format={toLower}
                         parse={toUpper}/>
                 </div>
-                <div>
-                    <Field
-                        name="costPerClass"
-                        label={"Cost p/class"}
-                        component={MyField}
-                        type="number"
-                        validate={isNumber}
-                        parse={toNumber}
-                        normalize={onlyGrow}/>
-                </div>
-                <div>
-                    <Field
-                        name="classesPerWeek"
-                        label={"Classes p/week"}
-                        component={MyField}
-                        type="number"
-                        validate={isNumber}
-                        parse={toNumber}
-                        normalize={onlyGrow}/>
-                </div>
+                
                 <ActivityActions>
                     <button type="submit" disabled={pristine || submitting}>Accept</button>
                     <button type="button" disabled={submitting} onClick={onBack}>Cancel</button>
@@ -95,8 +77,6 @@ const ActivityEdit = ({ descAct, costPerClass, classesPerWeek, handleSubmit, sub
 
 ActivityEdit.propTypes = {
     descAct: PropTypes.string,
-    costPerClass: PropTypes.number,
-    classesPerWeek: PropTypes.number,
     onBack: PropTypes.func.isRequired,
 };
 

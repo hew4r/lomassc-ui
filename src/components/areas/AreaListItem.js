@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import IconButton from '@material-ui/core/IconButton';
+import ListIcon from '@material-ui/icons/List';
+import EditIcon from '@material-ui/icons/Edit';
+import DeleteIcon from '@material-ui/icons/Delete';
 import PropTypes from 'prop-types';
 import { TableRow, TableCell } from '@material-ui/core';
 
@@ -7,30 +11,41 @@ const AreaListItem = ({ id, desc, editAction, deleteAction, urlPath  }) => {
     
     return (
         
-        <div>
+       
             
             <TableRow key={id}>
                 <TableCell >
-                    <Link to={`${urlPath}${id}`}>{desc}</Link>
+                 
+                        <Link to={`${urlPath}${id}`}>
+                            {desc}
+                        </Link>
                 </TableCell>
     
                 <TableCell >
-                    <Link to={`${urlPath}${id}/activities`}>{"Activities"}</Link>
+                    <IconButton color="primary" component="span">
+                        <Link to={`${urlPath}${id}/activities`}><ListIcon /></Link>
+                    </IconButton>
+                    
                 </TableCell>
                 
                 <TableCell >
-                    <Link to={`${urlPath}${id}/edit`}>{editAction}</Link>
+                    <IconButton color="primary" component="span">
+                        <Link to={`${urlPath}${id}/edit`}><EditIcon/></Link>
+                    </IconButton>
+                    
                 </TableCell>
                 
                 <TableCell >
-                    <Link to={`${urlPath}${id}/del`}>{deleteAction}</Link>
+                    <IconButton color="primary" component="span">
+                        <Link to={`${urlPath}${id}/del`}><DeleteIcon/></Link>
+                    </IconButton>
                 </TableCell>
                 
                 
             </TableRow>
             
  
-        </div>
+      
     
     )
 

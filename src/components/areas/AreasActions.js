@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const AreasActions = ({ children }) => {
     return (
-        <div>
+        <div align="center">
            <div>{children}</div>
 
         </div>

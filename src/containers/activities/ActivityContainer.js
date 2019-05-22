@@ -68,9 +68,9 @@ class ActivityContainer extends Component {
     
     renderBody = () => (
     
-        <Route path="/activities/:codAct/edit" children={
+        <Route path="/areas/:idArea/activities/:codAct/edit" children={
             ( { match: isEdit } ) => (
-                   <Route path="/activities/:codAct/del" children={
+                   <Route path="/areas/:idArea/activities/:codAct/del" children={
                        ( { match: isDelete } ) => (
                            this.renderActivityControl(isEdit, isDelete))
                    }/> )
@@ -82,7 +82,7 @@ class ActivityContainer extends Component {
         return (
             <div>
                 <AppFrame
-                    header={`Activity ${this.props.codAct}`}
+                    header={`Activity ${this.props.idAct}`}
                     body={this.renderBody()}
                 />
             </div>
@@ -91,7 +91,7 @@ class ActivityContainer extends Component {
 }
 
 ActivityContainer.propTypes = {
-    codAct: PropTypes.string.isRequired,
+    idAct: PropTypes.string.isRequired,
     activity: PropTypes.object,
     fetchActivities: PropTypes.func.isRequired,
     updateActivity: PropTypes.func.isRequired,
